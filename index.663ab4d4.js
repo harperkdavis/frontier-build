@@ -332,9 +332,9 @@ let tick = 0;
 const EDITOR = new URLSearchParams(window.location.search).get("editor") != null;
 function preload() {
     Fonts = {
-        pixel: loadFont("/static/font/PxPlus_IBM_EGA_8x8.ttf"),
-        regular: loadFont("/static/font/LibreFranklin-Regular.ttf"),
-        bold: loadFont("/static/font/LibreFranklin-Bold.ttf")
+        pixel: loadFont("./static/font/PxPlus_IBM_EGA_8x8.ttf"),
+        regular: loadFont("./static/font/LibreFranklin-Regular.ttf"),
+        bold: loadFont("./static/font/LibreFranklin-Bold.ttf")
     };
 }
 function setup() {
